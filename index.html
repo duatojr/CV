@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Jorge Carretero García</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="container-fluid">
+    <ul>
+      <li><a href="#profile">Perfil</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#education">Formación</a></li>
+      <li><a href="#skills">Conocimientos</a></li>
+      <li><a href="#courses">Cursos</a></li>
+      <li><a href="#languages">Idiomas</a></li>
+      <li><a href="#volunteer">Voluntariado</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <ul>
+      <li class="lang-switch">
+        <button onclick="setLanguage('es')">🇪🇸</button>
+        <button onclick="setLanguage('en')">🇬🇧</button>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Jorge Carretero García</h1>
+    <p>CV Bilingüe · Bioinformático y Analista de Datos Biomédicos</p>
+  </header>
+
+  <main class="container">
+      <section id="profile">
+        <hgroup>
+          <h2 data-es="Perfil profesional" data-en="Professional Profile"></h2>
+        </hgroup>
+        <p data-es="Bioinformático y Analista de Datos Biomédicos con una sólida formación en biología molecular y celular, especializado en análisis de datos ómicos (genómicos, transcriptómicos y proteómicos). Experiencia en aplicar metodologías bioinformáticas y estadísticas para extraer conocimientos de datos complejos." 
+           data-en="Bioinformatician and Biomedical Data Analyst with strong background in molecular and cellular biology, specialized in omics data analysis (genomics, transcriptomics, proteomics). Experienced in applying bioinformatics and statistical methodologies to extract insights from complex datasets."></p>
+      </section>
+
+      <section id="experience">
+        <hgroup>
+          <h2 data-es="Experiencia profesional" data-en="Work Experience"></h2>
+        </hgroup>
+        <p><strong>Data Analyst - Sportnomics (2025 - Actualidad)</strong></p>
+        <p data-es="Colaboración en proyecto de análisis de datos fisiológicos, antropométricos, de rendimiento y genéticos de deportistas. Procesado y análisis de conjuntos de datos genómicos usando R." 
+           data-en="Collaborating on project analyzing physiological, anthropometric, performance, and genetic data from athletes. Processed and analyzed large-scale genomic datasets using R."></p>
+        <p><strong>Research Assistant - Instituto de Investigación La Princesa (2024)</strong></p>
+        <p data-es="Diseño y ejecución de investigación en biología molecular, análisis de expresión génica." 
+           data-en="Designed and executed molecular biology research, analyzed gene expression."></p>
+        <p><strong>Area Manager - Dulce Safari (2024 - Actualidad)</strong></p>
+        <p data-es="Gestión integral de operaciones diarias, implementación de estrategias, análisis de ventas." 
+           data-en="Comprehensive management of daily operations, strategy implementation, sales data analysis."></p>
+      </section>
+
+      <section id="education">
+        <hgroup>
+          <h2 data-es="Formación académica" data-en="Education"></h2>
+        </hgroup>
+        <p data-es="Máster en Bioinformática y Análisis de Datos - Universidad Francisco de Vitoria (2024-2025)" data-en="Master in Bioinformatics and Data Analysis - Universidad Francisco de Vitoria (2024-2025)"></p>
+        <p data-es="Grado en Biología - Universidad Complutense de Madrid (2020-2024)" data-en="Bachelor's Degree in Biology - Universidad Complutense de Madrid (2020-2024)"></p>
+      </section>
+
+      <section id="skills">
+        <hgroup>
+          <h2 data-es="Conocimientos técnicos" data-en="Technical Skills"></h2>
+        </hgroup>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3 data-es="Lenguajes de programación" data-en="Programming Languages"></h3>
+            <div class="skill-item">
+              <span>Bash</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Python</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>R</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>SQL</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 data-es="Herramientas" data-en="Tools"></h3>
+            <div class="skill-item">
+              <span>RStudio</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Jupyter</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Git</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Linux</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Excel</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 data-es="Análisis" data-en="Analysis"></h3>
+            <div class="skill-item">
+              <span data-es="Bioestadística" data-en="Biostatistics"></span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span data-es="Análisis ómico" data-en="Omics analysis"></span>
+              <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <span data-es="Visualización de datos" data-en="Data visualization"></span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses">
+        <hgroup>
+          <h2 data-es="Cursos adicionales" data-en="Additional Courses"></h2>
+        </hgroup>
+        <div class="course-list">
+          <p data-es="Transformación digital para el empleo - Google" data-en="Digital Transformation for Employment - Google"></p>
+          <p data-es="Competencias digitales para profesionales - Google" data-en="Digital Skills for Professionals - Google"></p>
+          <p data-es="Productividad personal - Google" data-en="Personal Productivity - Google"></p>
+          <p data-es="Computer hardware and software - UCI" data-en="Computer hardware and software - UCI"></p>
+          <p data-es="Curso en derecho y práctica en protección de datos - UFV" data-en="Data Protection Law and Practice - UFV"></p>
+          <p data-es="Curso de secuenciación prenatal - XPeer" data-en="Prenatal Sequencing Course - XPeer"></p>
+        </div>
+      </section>
+
+      <section id="languages">
+        <hgroup>
+          <h2 data-es="Idiomas" data-en="Languages"></h2>
+        </hgroup>
+        <div class="language-list">
+          <p data-es="Español: Nativo" data-en="Spanish: Native"></p>
+          <p data-es="Inglés: C2 avanzado" data-en="English: C2 level"></p>
+        </div>
+      </section>
+
+      <section id="volunteer">
+        <hgroup>
+          <h2 data-es="Voluntariado" data-en="Volunteering"></h2>
+        </hgroup>
+        <div class="volunteer-list">
+          <ul>
+            <li data-es="Voluntariado en conservación de zonas verdes (Pozuelo)" data-en="Volunteered in green area conservation (Pozuelo)"></li>
+            <li data-es="Cuidado de fauna (Casa de Campo)" data-en="Wildlife care (Casa de Campo)"></li>
+            <li data-es="Banco de Alimentos (Operación Kilo)" data-en="Food Bank's 'Operación Kilo'"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <hgroup>
+          <h2 data-es="Contacto" data-en="Contact"></h2>
+        </hgroup>
+        <p>Email: <a href="mailto:jorgecarreterogarcia@gmail.com">jorgecarreterogarcia@gmail.com</a></p>
+        <p>Tel: +34 626818245</p>
+        <p><a href="https://www.linkedin.com/in/jorge-carretero-garcia-a8a63a189" target="_blank">LinkedIn</a></p>
+      </section>
+  </main>
+
+  <footer class="container">
+    <small><a href="#">© 2025 Jorge Carretero García</a> • <a href="#top">Volver arriba</a></small>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,183 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+}
+/* Encabezados principales - negro, negrita y subrayado */
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Subtítulos (strong dentro de párrafos) - gris oscuro y negrita */
+p strong {
+  color: #444;
+  font-weight: bold;
+}
+
+/* Texto descriptivo - gris oscuro más claro */
+p {
+  color: #666;
+}
+header {
+  /* Reemplaza 'tu-imagen-de-fondo.jpg' con el nombre de tu imagen */
+  background-image: url('tu-imagen-de-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #003366; /* Azul marino */
+  background-color: #ADD8E6; /* Azul claro */
+  padding: 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  color: #003366; /* Azul marino */
+  background-color: #ADD8E6; /* Azul claro */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+.lang-switch {
+  margin: 1rem auto;
+  text-align: center;
+}
+.lang-switch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+section {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #333;
+}
+section h2 {
+  color: #000;
+}
+figure img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+/* Estilos para las habilidades en columnas */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.skill-category h3 {
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.skill-item {
+  margin-bottom: 1rem;
+}
+
+.skill-item span {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #007acc;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Estilos para listas de cursos, idiomas y voluntariados */
+.course-list p,
+.language-list p {
+  margin-bottom: 0.5rem;
+}
+
+.volunteer-list ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.volunteer-list li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+/* Navegación mejorada */
+nav.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #007acc;
+}
+
+/* Botones de idioma en la esquina superior derecha */
+.lang-switch {
+  margin: 0;
+  text-align: right;
+}
+
+.lang-switch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0 0.25rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.lang-switch button:hover {
+  background-color: #f0f0f0;
+}
+
