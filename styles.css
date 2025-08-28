@@ -22,7 +22,7 @@ p {
 }
 header {
   /* Reemplaza 'tu-imagen-de-fondo.jpg' con el nombre de tu imagen */
-  background-image: url('tu-imagen-de-fondo.jpg');
+  background-image: url('fondo-cv.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
